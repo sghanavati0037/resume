@@ -1,0 +1,79 @@
+{% extends 'base.html'%} {% load static %} {% block content %}
+<!-- ======= My Skills Section ======= -->
+  <section id="about" class="services" style="background-color: #e5e8eb;">
+  <div class="container">
+
+    <div class="section-title">
+      <span>My Skills</span>
+      <h2>My Skills</h2>
+      <p></p>
+    </div>
+
+    <div class="row">
+      
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="icon-box">
+          <div class="icon"><i class="bx bi-pc-display-horizontal"></i></div> 
+          <h4 class="title"><a href="">Programming Language</a></h4>
+          <p class="description">
+            A programming language is a way for programmers or developers to communicate with computers by use of a set of rules.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="icon-box">
+          <div class="icon"><i class="bx bi-browser-edge"></i></div>
+          <h4 class="title"><a href="">Web Programming</a></h4>
+          <p class="description">
+            Web programming refers to the development of web applications and websites that are accessed over the Internet.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="icon-box">
+          <div class="icon"><i class="bx bi-images"></i></div>
+          <h4 class="title"><a href="">Photoshop</a></h4>
+          <p class="description">
+            Photoshop is a photo editing and raster graphic design software which allows users to create, edit, graphics. 
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="icon-box">
+          <div class="icon"><i class="bx bi-newspaper"></i></div>
+          <h4 class="title"><a href="">Statistical packages</a></h4>
+          <p class="description">
+            A statistical package is basically a collection of software that has been designed to simplify the job of statistical analysis.
+          </p>
+        </div>
+      </div> 
+
+    </div>
+
+
+    <section class="contact" style="background-color: #e5e8eb;">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6">
+               <div class="info-box"> 
+                  <img src="{% static 'img/img5.jpg' %}" class="img-fluid" alt="">
+                  
+                </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="info-box"> 
+              <img src="{% static 'img/img3.jpg' %}" class="img-fluid" alt="">
+             </div>
+       </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+<!-- End My Skills Section -->
+{% endblock %}
